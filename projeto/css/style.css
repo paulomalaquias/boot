@@ -1,6 +1,6 @@
 body
 {
-	background-color: #064378;
+	background-color: #fff;
 }
 
 #cards
@@ -57,17 +57,17 @@ body
 
 
 
-
-
-
-
-
 #rodape
 {
 height: 110px;
-background-image:linear-gradient(to left,#FF1493,#6495ED,#FF7F50);
+background-image:linear-gradient(to right,#FF1493,#6495ED,#FF7F50);
 color: #fff; 
 }
 .cor-font{
 	color: #fff;
 }
+ 
+ #button-enviar
+ {
+	 margin-top: 20px;
+ }
