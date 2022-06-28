@@ -34,13 +34,13 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<form method="get" action="#">
+					<form>
 						<label for="nome-completo" class="form-label">Digite Seu Nome</label>
 						<input type="text" class="form-control" id="nome-completo" required>
 						<p class="form-text">Digite Seu Nome Completo Neste Campo</p>
 						
 						<label for="email" class="form-label">Digite Seu Email</label>
-						<input type="email" class="form-control" id="email"required >
+						<input type="email" class="form-control" id="email"required>
 						<p class="form-text">Digite Seu Email Neste Campo</p>
 						
 						<label for="telefone" class="form-label">Digite Seu Número</label>
@@ -66,7 +66,7 @@
 						<label for="caixa-texto" class="form-label">
 						<textarea class="form-control" id="caixa-texto" rows="3" required></textarea>
 						
-						<button type="submit" class="btn btn-info" id="button-enviar">enviar</button>
+						<button type="button" onclick="validarFormulario()" class="btn btn-info" id="button-enviar">enviar</button>
 					</form>
 				</div>
 			</div>
@@ -114,6 +114,8 @@
 
 
 <script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
 
 </body>
 </html>
