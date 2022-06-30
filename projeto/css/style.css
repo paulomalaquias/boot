@@ -71,3 +71,30 @@ color: #fff;
  {
 	 margin-top: 20px;
  }
+ 
+ 
+ 
+.texto-noticias
+ {
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+ }
+ 
+.noticia
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+body
+{
+	background-image: url(../img/raio.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+
+.titulo
+{
+	color: #fff;
+}
