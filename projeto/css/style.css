@@ -86,7 +86,7 @@ color: #fff;
 	margin-bottom: 15px;
 }
 
-body
+#lok
 {
 	background-image: url(../img/raio.jpg);
 	background-repeat: no-repeat;
@@ -97,4 +97,16 @@ body
 .titulo
 {
 	color: #fff;
+}
+
+#imagem-fundo
+{
+	background-image: url(../img/re.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.texto
+{
+	color: red;
 }
