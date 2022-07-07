@@ -8,12 +8,7 @@
 	<link rel="icon" href="img/marvel-thor.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 		<title>Login</title>
-		<style>
-		input{
-		max-width:250px;
-		}
 		
-		</style>
 </head>
 <body>
 
@@ -31,32 +26,37 @@
 		</div>
 	</nav>
 
-	<section>		
+	<section>	
+		
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<h1 class="display-8 text-center">Entrar</h1>
+				<div class="col-4">
 				</div>
-			</div>
-				<div class="row">
-					<div class="col-12">
-						<form>
+				<div class="col-4 text-center" id="corpo-login">
+					<h1 class="display-8 text-center">Entrar</h1>
+						<div>
+							<img src="">
+						</div>
+					<form method="get" action="#">
+					
+						
 							<label for="e-mail" class="form-label">E-mail</label>
-							<input type="e-mail" class="form-control" id="eimail" style="max-width: 250px;" required>
+							<input type="e-mail" class="form-control" placeholder="e-mail" autofocus required>
 							
 							<label for="senha" class="form-label">Senha</label>
-							<input type="text" class="form-control" id="senha" style="max-width: 250px;" required>
+							<input type="password" class="form-control" placeholder="senha"autofocus required>
 							
 							<button type="button" onclick="validarFormulario()" class="btn btn-info" id="button-enviar">Login</button>
+							<div>
+								<a href="cadastro.html">Não Possui Uma Conta?</a>
+							</div>
 							
-						</form>
+					</form>		
+					<div class="col-4">
 					</div>
 				</div>
-			
-			<!-- max-width:250px; -->
-			
-		</div>
-	
+			</div>												
+		</div>	
 	</section>
 	
 	
