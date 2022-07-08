@@ -25,11 +25,11 @@ body
 }
 #imagem-card2
 {
-	background-color: #B22222;
+	background-color: #fff;
 }
 #imagem-card3
 {
-	background-color: #FF1493;
+	background-color: #FFf;
 }
 #imagem-card4
 {
@@ -148,4 +148,18 @@ body
 	padding-bottom: 29px;
 	margin-bottom: 50px;
 	
+}
+
+.ima
+{
+	width: 100%; 
+	height: 100%;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+}
+
+.ima:hover
+{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
